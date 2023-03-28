@@ -42,4 +42,25 @@ We will also keep a check if files have not exceeded the count of 80 because dis
    + rms energy: Root Mean Square of energy is equals to sqrt(sum(energy**2))/len(energy))
    + zcr: Zero Cross Rate is the rate at which a signal changes from positive to zero to negative or from negative to zero to positive. In simpler words, it's the rate at which the signal passes through the origin.
    
-   After extracting features, these features will be used to create the dataframe.
+   After extracting features, these features will be used to create the dataframe.<br>
+   Dataframe has the following columns:
+    + Energy 
+    + Zcr 
+    + Label
+    
+   Each category is assigned an integer which is the label for that category.
+    + bellypain - 1
+    + burping - 2
+    + discomfort - 3
+    + hungry - 4
+    + tired - 5
+    
+   After that dataframe is converted to an excel sheet.<br>
+   Also, data is split into train and test dataset. For that I have made the use of dataframe.drop function.
+   For test data, 15 random samples have been taken from each category.
+   
+   Finally, train dataframe and test dataframe are converted to excel sheet.
+   
+   **Packages/Libraries Used :** numpy, librosa, pandas, math <br>
+   <a href='/Features Extraction.ipynb'> <strong> <em> Visit Module </strong> </em> </a>
+   
