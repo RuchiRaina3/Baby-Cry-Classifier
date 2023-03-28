@@ -8,7 +8,7 @@
 I developed this project along with my peer during my 6 months internship at IIT Jammu. Baby Cry Project is developed using ML and Deep Learning models to classify the baby cry into 5 different categories viz. bellypain, burping, discomfort, hungry and tired.
 
 ## Data Collection 
-We have taken the data from donateacry and we have also collected real time data from the hospitals and parents.
+Data is in the form of audio files. We have taken the data from donateacry and we have also collected real time data from the hospitals and parents.
 
 ### **Statistics of data :**
 
@@ -35,3 +35,11 @@ We will also keep a check if files have not exceeded the count of 80 because dis
  We have trained two models for this project:
   1. **Naive Bayes Classifier** : This was to dip our hands in ML
   2. **Neural Network** : To get ourselves completely drenched in ML and Deep Learning
+  
+  ## **Features Extraction**  
+  This module is for extracting features for Naive Bayes Classifier.<br>
+  For Naive Bayes Model, features extracted are:
+   + rms energy: Root Mean Square of energy is equals to sqrt(sum(energy**2))/len(energy))
+   + zcr: Zero Cross Rate is the rate at which a signal changes from positive to zero to negative or from negative to zero to positive. In simpler words, it's the rate at which the signal passes through the origin.
+   
+   After extracting features, these features will be used to create the dataframe.
