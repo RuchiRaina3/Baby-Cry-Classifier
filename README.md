@@ -70,6 +70,15 @@ We will also keep a check if files have not exceeded the count of 80 because dis
    
   ## **Naive Bayes Classifier**
   This module contains the code for Naive Bayes Classifier. It is divided into 5 steps.
-   **STEP 1**: READING EXCEL SHEETS
-   **STEP 2**:
-   
+   **STEP 1**: READING EXCEL SHEETS <br>
+   **STEP 2**: DERIVING STATISTICS(mean, std. deviation, length) OF COLUMNS - ENERGY & ZCR TO SUMMARIZE DATASET <br>
+   **STEP 3**: SUMMARIZE DATASET BY CLASS <br>
+   **STEP 4**: CALCULATING GAUSSIAN PROBABILITY DISTRIBUTION FUNCTION <br>
+   **STEP 5**: CALCULATING GAUSSIAN PROBABILITY DISTRIBUTION FUNCTION <br>
+   CALCULATE PROBABILITIES <br>
+       1. Calculate Class prob. i.e. P(class) = Rows in class / Total Rows in training Dataset <br>
+       2. Calculate Prob. for each input value in the row using the Gaussian probability density function and the statistics for that column and of that class <br>
+    
+   **Packages/Libraries Used :** numpy, librosa, pandas, math <br>
+   <a href='/Naive Bayes Classifier.ipynb'> <strong> <em> Visit Module </strong> </em> </a>
+    
