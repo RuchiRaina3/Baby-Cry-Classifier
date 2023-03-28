@@ -44,16 +44,20 @@ We will also keep a check if files have not exceeded the count of 80 because dis
    
    After extracting features, these features will be used to create the dataframe.<br>
    Dataframe has the following columns:
-    + Energy 
-    + Zcr 
-    + Label
+    <ul>
+  <li>Energy</li>
+  <li>ZCr</li>
+  <li>label</li>
+    </ul>
     
    Each category is assigned an integer which is the label for that category.
-    + bellypain - 1
-    + burping - 2
-    + discomfort - 3
-    + hungry - 4
-    + tired - 5
+   <ul>
+   <li> bellypain - 1 </li>
+   <li> burping - 2 </li>
+   <li> discomfort - 3  </li>
+   <li> hungry - 4  </li>
+   <li> tired - 5 </li>
+    </ul>
     
    After that dataframe is converted to an excel sheet.<br>
    Also, data is split into train and test dataset. For that I have made the use of dataframe.drop function.
@@ -63,4 +67,9 @@ We will also keep a check if files have not exceeded the count of 80 because dis
    
    **Packages/Libraries Used :** numpy, librosa, pandas, math <br>
    <a href='/Features Extraction.ipynb'> <strong> <em> Visit Module </strong> </em> </a>
+   
+  ## **Naive Bayes Classifier**
+  This module contains the code for Naive Bayes Classifier. It is divided into 5 steps.
+   **STEP 1**: READING EXCEL SHEETS
+   **STEP 2**:
    
