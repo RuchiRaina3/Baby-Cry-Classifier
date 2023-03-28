@@ -69,16 +69,37 @@ We will also keep a check if files have not exceeded the count of 80 because dis
    <a href='/Features Extraction.ipynb'> <strong> <em> Visit Module </strong> </em> </a>
    
   ## **Naive Bayes Classifier**
-  This module contains the code for Naive Bayes Classifier. It is divided into 5 steps.
+  This module contains the code for Naive Bayes Classifier. It is divided into 5 steps. <br>
    **STEP 1**: READING EXCEL SHEETS <br>
    **STEP 2**: DERIVING STATISTICS(mean, std. deviation, length) OF COLUMNS - ENERGY & ZCR TO SUMMARIZE DATASET <br>
    **STEP 3**: SUMMARIZE DATASET BY CLASS <br>
    **STEP 4**: CALCULATING GAUSSIAN PROBABILITY DISTRIBUTION FUNCTION <br>
-   **STEP 5**: CALCULATING GAUSSIAN PROBABILITY DISTRIBUTION FUNCTION <br>
-   CALCULATE PROBABILITIES <br>
+   **STEP 5**: CALCULATE PROBABILITIES <br>
        1. Calculate Class prob. i.e. P(class) = Rows in class / Total Rows in training Dataset <br>
        2. Calculate Prob. for each input value in the row using the Gaussian probability density function and the statistics for that column and of that class <br>
     
    **Packages/Libraries Used :** numpy, librosa, pandas, math <br>
    <a href='/Naive Bayes Classifier.ipynb'> <strong> <em> Visit Module </strong> </em> </a>
+   
+   
+   Accuracy is not much impressive. It's just 50.667%. <br>
+   So, we decided to use the Neural Network for  classification.
+   
+  ## **Naive Bayes Classifier**
+  This module contains the code for Classification using Sequential Neural Network. 
+  
+  It has five layers. First four layers have relu activation function and fifth layer has the softmax activation function.
+  
+  Firstly, features are extracted. Features extracted are MFCC.
+  Mel-frequency cepstral coefficients (MFCCs) are coefficients that collectively make up an MFC. For that I have used librosa.feature.mfcc(). It will return 125   MFCCs.
+  
+  Then these features are fed into the neural network. It is trained for 3000 epochs.
+  
+  
+  **Packages/Libraries Used :** numpy, librosa, pandas, math, keras, tensorflow <br>
+   <a href='/Neural Network.ipynb'> <strong> <em> Visit Module </strong> </em> </a>
+   
+   
+   Accuracy is 83.529%. It's much impressive for this size of data. <br>
+  
     
