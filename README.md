@@ -5,12 +5,12 @@
   <img width='300' height='250' src='/Assets/Namaste.jpg'> 
 </p>
 
-I developed this project along with my peer during my 6 months internship at IIT Jammu. Baby Cry Project is developed using ML and Deep Learning models to classify the baby cry into 5 different categories viz. bellypain, burping, discomfort, hungry and tired.
+I developed this project along with my peer during my 6 months internship at IIT Jammu. Baby Cry Classifier is built using ML and Deep Learning models to classify the baby cry into 5 different categories viz. bellypain, burping, discomfort, hungry and tired.
 
 ## Data Collection 
-Data is in the form of audio files. We have taken the data from donateacry and we have also collected real time data from the hospitals and parents.
+Data is in the form of audio files. We have taken the data from donateacry and we have also collected real-time data from the hospitals and parents.
 
-### **Statistics of data :**
+### **Statistics of data:**
 
   + bellypain = 80
   + burping = 40
