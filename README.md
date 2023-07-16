@@ -85,7 +85,7 @@ We will also keep a check if files have not exceeded the count of 80 because dis
    Accuracy is not much impressive. It's just 50.667%. <br>
    So, we decided to use the Neural Network for  classification.
    
-  ## **Naive Bayes Classifier**
+  ## **Neural Network**
   This module contains the code for Classification using Sequential Neural Network. 
   
   It has five layers. First four layers have relu activation function and fifth layer has the softmax activation function.
